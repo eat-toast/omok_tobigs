@@ -58,11 +58,3 @@ _draw_screen(player= STONE_PLAYER2,act = 45, gameOver= False)
 _draw_screen(player= STONE_PLAYER1,act = 54, gameOver= False)
 _draw_screen(player= STONE_PLAYER2,act = 56, gameOver= False)
 _draw_screen(player= STONE_PLAYER1,act = 34, gameOver= True)
-
-plt.cla() # 초기화
-
-temp = [ 0. , 0. , 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0. , 0. , 0. , 0.,
-  0. , 0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,  0.,
-  0. , 0. , 0. , 0. , 0. , 0. , 0. , 1. , 0. , 0. , 0. , 0. , 0.]
-
-np.where(temp)[0][0]
