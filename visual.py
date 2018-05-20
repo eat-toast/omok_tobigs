@@ -26,7 +26,6 @@ def _prepare_display():
     return fig, axis
 
 
-
 def _draw_screen(player,act,gameOver):
     title = " Avg. Reward: %d Reward: %d Total Game: %d"
 
@@ -49,8 +48,7 @@ def _draw_screen(player,act,gameOver):
 
 fig, axis = _prepare_display()
 
-
-
+#예시코드
 _draw_screen(player= STONE_PLAYER1,act = 55, gameOver= False)
 _draw_screen(player= STONE_PLAYER2,act = 66, gameOver= False)
 _draw_screen(player= STONE_PLAYER1,act = 44, gameOver= False)
